@@ -17,6 +17,7 @@ category performance. The analysis highlights Burgers as the dominant sales cate
 identifies clear peak operating hours, and pinpoints top-performing menu items. With a 
 total of 5,370 orders generating $61,626.26 in sales, this report outlines actionable 
 recommendations to capitalize on strengths and address areas for improvement. 
+
 <img width="1059" height="426" alt="1" src="https://github.com/user-attachments/assets/b7e079f4-a601-4ebd-a415-599a6ef9f19d" />
 
 
@@ -28,6 +29,7 @@ recommendations to capitalize on strengths and address areas for improvement.
 
 ○ Burgers are the undisputed sales leader, accounting for a significant 35% 
 of total sales distribution.
+
 <img width="664" height="394" alt="image" src="https://github.com/user-attachments/assets/7613e8c7-3800-432d-85df-724064ecea5c" />
 
 
@@ -52,6 +54,7 @@ highest seller.
 
 ○ The other strong performers in the top 5 include: Angus Third Pounder, 
 Big Mac, Bulgogi Burger, and Quarter Pounder with Cheese. 
+
 <img width="663" height="393" alt="image" src="https://github.com/user-attachments/assets/6568873b-17a7-4cc1-9fe1-468c8419890f" />
 
 
@@ -59,6 +62,7 @@ Big Mac, Bulgogi Burger, and Quarter Pounder with Cheese.
    
 ○ Monday consistently records the highest order volume, indicating a strong 
 start to the week for customer traffic.
+
 <img width="663" height="393" alt="image" src="https://github.com/user-attachments/assets/2d8538b8-4bd1-4fcf-94bb-289f15b02012" />
 
 
@@ -70,6 +74,7 @@ consistently highest-performing categories are Burgers, Chicken, and
 Pasta. 
 ○ Lowest Selling Categories: Conversely, Breakfast, Salad, and Shakes are 
 identified as the lowest-selling categories during the same period. 
+
 <img width="664" height="393" alt="image" src="https://github.com/user-attachments/assets/d57aa296-656b-426c-953c-129a6827329f" />
 
 
