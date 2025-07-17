@@ -8,14 +8,27 @@ This project involves building an interactive Excel dashboard to analyze McDonal
 Key metrics include sales performance, item popularity, and customer preferences.
 Time-based trends are visualized for deeper business insights.
 
+
+**Data Structure Overview**
+
+This project uses a two-table relational database for restaurant order management. 
+The order_details table stores comprehensive order information including temporal data
+(date, time, day type) and calculated metrics (sales, total orders, items per order). 
+The menu table contains menu item references with item names, categories, and prices. 
+The tables have a one-to-many relationship where each menu item can appear in multiple orders, connected by item_id foreign key.
+
+<img width="718" height="436" alt="1" src="https://github.com/user-attachments/assets/1e1b8083-f40f-4959-a7c0-29f254a93b4a" />
+
+
+
 **Executive Summary**
 
 
-This report provides a concise analysis of McDonald's sales performance for (January, 
-February, March), focusing on key trends in product distribution, order volume, and 
-category performance. The analysis highlights Burgers as the dominant sales category, 
+This report provides a concise analysis of McDonald's sales performance for **(January, 
+February, March)**, focusing on key trends in product distribution, order volume, and 
+category performance. The analysis highlights **Burgers** as the dominant sales category, 
 identifies clear peak operating hours, and pinpoints top-performing menu items. With a 
-total of 5,370 orders generating $61,626.26 in sales, this report outlines actionable 
+total of **5,370** orders generating **$61,626.26** in sales, this report outlines actionable 
 recommendations to capitalize on strengths and address areas for improvement. 
 
 <img width="1059" height="426" alt="1" src="https://github.com/user-attachments/assets/b7e079f4-a601-4ebd-a415-599a6ef9f19d" />
@@ -27,7 +40,7 @@ recommendations to capitalize on strengths and address areas for improvement.
 
 1. Product Distribution Dominance:
 
-○ Burgers are the undisputed sales leader, accounting for a significant 35% 
+○ **Burgers** are the undisputed sales leader, accounting for a significant **35%**
 of total sales distribution.
 
 <img width="664" height="394" alt="image" src="https://github.com/user-attachments/assets/7613e8c7-3800-432d-85df-724064ecea5c" />
@@ -35,32 +48,32 @@ of total sales distribution.
 
 2. Order Volume by Time of Day - Distinct Peaks:
    
-○ Lunch Peak: A sharp increase in order volume is observed between 11:30 
-AM and 12:00 PM, indicating a strong lunchtime rush. Volume then 
-decreases by 1:00 PM. 
+○ **Lunch Peak**: A sharp increase in order volume is observed between **11:30 
+AM and 12:00 PM**, indicating a strong lunchtime rush. Volume then 
+decreases by **1:00 PM**. 
 
-○ Afternoon Peak: A secondary, notable peak occurs between 4:30 PM and 
-5:30 PM, suggesting a significant late-afternoon or early-dinner demand. 
-Order volume subsequently declines from 6:30 PM until closing (23:00 
-PM).
+○ **Afternoon Peak**: A secondary, notable peak occurs between **4:30 PM and 
+5:30 PM**, suggesting a significant late-afternoon or early-dinner demand. 
+Order volume subsequently declines from **6:30 PM until closing (23:00 
+PM)**.
 
 <img width="663" height="393" alt="image" src="https://github.com/user-attachments/assets/d4cb0bdd-9cd9-4bf1-910f-a2ce5adb4a00" />
 
 
 3. Top Selling Dishes:
    
-○ Among the top five individual dishes, Meatball Marinara emerges as the 
+○ Among the top five individual dishes, **Meatball Marinara** emerges as the 
 highest seller.
 
-○ The other strong performers in the top 5 include: Angus Third Pounder, 
-Big Mac, Bulgogi Burger, and Quarter Pounder with Cheese. 
+○ The other strong performers in the top 5 include: **Angus Third Pounder, 
+Big Mac, Bulgogi Burger, and Quarter Pounder with Cheese**. 
 
 <img width="663" height="393" alt="image" src="https://github.com/user-attachments/assets/6568873b-17a7-4cc1-9fe1-468c8419890f" />
 
 
 4. Orders by Day of the Week:
    
-○ Monday consistently records the highest order volume, indicating a strong 
+○ **Monday** consistently records the highest order volume, indicating a strong 
 start to the week for customer traffic.
 
 <img width="663" height="393" alt="image" src="https://github.com/user-attachments/assets/2d8538b8-4bd1-4fcf-94bb-289f15b02012" />
@@ -70,9 +83,9 @@ start to the week for customer traffic.
 5. Sales by Category Over Months (Jan-Mar):
    
 ○ Top Selling Categories: Across January, February, and March, the 
-consistently highest-performing categories are Burgers, Chicken, and 
-Pasta. 
-○ Lowest Selling Categories: Conversely, Breakfast, Salad, and Shakes are 
+consistently highest-performing categories are **Burgers, Chicken, and 
+Pasta**. 
+○ Lowest Selling Categories: Conversely, **Breakfast, Salad, and Shakes** are 
 identified as the lowest-selling categories during the same period. 
 
 <img width="664" height="393" alt="image" src="https://github.com/user-attachments/assets/d57aa296-656b-426c-953c-129a6827329f" />
